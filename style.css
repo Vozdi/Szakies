@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Comfortaa', cursive,'font-family';
+  
+}
+body {
+    background:url(worker1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Comfortaa', cursive,'font-family';
+
+}
+
+.nav{
+    border-bottom:1px solid #2196f3;
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    background: black ;
+   
+}
+.logo{
+  
+    color: #2196f3;
+    float: left;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 26px;   
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px ;
+    line-height: 70px;
+    font-size: 90%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .8s;
+    border-bottom:1px solid white;
+}
+.menu a:hover{
+    border-bottom: 1px solid blue;
+    padding-bottom: 1%;
+    border-color: blue ;
+    color:blue;
+   
+    
+}
+label{
+    margin:0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+
+}
+#toggle{
+    display:none;
+    
+    
+}
+
+@media screen and (max-width:1048px){
+  
+    label{
+        display: block;
+        color:  #2196f3;;
+        cursor: pointer;   
+        position: relative;
+    }
+    .logo{
+        float: left;
+        margin-left: 37%;
+        
+    }
+    
+    .menu{
+       
+        text-align: center;
+        width: 100%;
+        display: none;     
+    }
+    .menu a{
+        position: relative;
+        display: block;
+        background: #1c1c1c;;
+        margin: 0;
+        border-bottom: 1px solid #2196f3 ;   
+        
+    }
+    .content-1 h1{
+        font-size: 200%;
+        letter-spacing: 0px;     
+        color: white;
+        width: 220%;
+        padding-top:10%;
+    }
+    .content-1 hr{
+        margin-top:5%;
+        text-align: end;
+
+    }
+    .content-2 p{ 
+      
+        font-size: 100%;
+        letter-spacing: 0px;
+        width: 305%;   
+    }
+    
+    #toggle:checked + .menu, label {
+        
+        display:block;          
+    }
+    .buttons{
+        background: #1c1c1c;
+        position: relative;
+        border-bottom: 3px solid #EA494E ;
+    }
+    
+    h1{
+        font-size: 200%;
+        letter-spacing: 1px;
+        padding-top:1%;
+        width: 92%;
+        color: white;
+    }
+    
+   
+    }
+    
+
+.buttons{
+    position: relative; 
+    min-height: 100%;
+    height: 60px;
+    width: auto;
+}
+.buttons button{
+   font-family: 'Comfortaa', cursive;
+   background:black;
+   width: 155px;
+   height: 40px;
+   color: white;
+   font-size: 60%;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.btn1{
+    outline: none;
+    border-color: blue;
+    border-radius: 20px 0 0 20px;
+    transition: .8s;
+}
+.btn2{
+    outline: none;
+    border-radius: 0px 20px 20px 0;
+    border-color: red;
+    transition: .8s;
+}
+.btn1:hover{
+    color:blue;
+    overflow: hidden;
+    
+}
+.btn2:hover{
+    overflow: hidden;
+    color: red;
+   
+}
+.btn3{
+    margin-bottom:2%;
+    outline: none;
+    border-color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: .8s;
+    font-family: 'Comfortaa', cursive;
+    background:black;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 60%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.btn3:hover{
+    
+    overflow: hidden;
+   color: red;
+   border-color: blue;
+}
+.content-1{
+    padding:10vmin;   
+    color: white;
+    text-shadow: 5px 3.5px 3px black;
+    font-size: 110%;
+    letter-spacing: 6px;
+    padding-bottom:10%;
+    width: 60%;
+    text-align: justify;     
+   
+}
+.content-1 h1{
+    padding-bottom:2%; 
+}
+.content-2{
+    padding:10vmin;   
+    margin-top: -13%;
+    color: white;
+    width: 50%;
+    font-size: 180%;
+    letter-spacing: 01px;
+    padding-bottom:2%;
+    text-shadow: 2px 2px 2px black;
+}
+.content-line{
+    width: 74vmin;
+    border-color:white;
+}
+.contentrow{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.container-second{
+    background: black;
+    height: 450px;
+    border-bottom:1px solid red ;
+    border-top: 1px solid red;
+    
+}
+.secFirstRow{
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #2196F3;
+    font-weight:normal;
+    margin-bottom: 3%;
+    }
+
+
+.secBox{
+    display:flex;   
+    color:white;
+    font-size: 100%;
+    font-weight: normal;    
+    justify-content: center;
+    
+    
+
+}
+.secBox h1{  
+    font-weight:bold;
+    margin: 3vmin;  
+    color: red;
+    text-align: center;
+}
+.secBox h2{    
+    font-weight:normal;
+    margin: 3vmin;       
+}
+.secBox h3{   
+    font-weight:normal;
+    font-size: 100%;  
+    margin-left: 3.2vmin;
+   width: 200px;
+   letter-spacing: 1px;
+}
+
+.secBox button{
+    
+    margin-top:5%;
+    outline: none;
+    border-color: white ;
+    border-radius: 20px 20px 20px 20px;
+    transition: .8s;
+    font-family: 'Comfortaa', cursive;
+    background:black;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 60%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.secBox button:hover{
+    color: red;
+    border-color: blue ;
+    
+}
+
+
+.contentThrid-1{
+    color: white;
+    background: black;
+    border-bottom:1px solid red;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    font-weight:bold;
+    letter-spacing: 2px;
+    
+
+}
+.lineContent-1{
+    background: black;
+    padding-top: 5%;
+    padding-left: 3%;  
+    padding-bottom: 5%;
+    display: block;
+    width: auto;  
+    color:white;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight:bold;   
+    
+}
+.lineContent-1 h1{
+    font-weight:normal;  
+    padding-bottom: 4%;
+    text-align: start;
+}
+.contentFirth-1{
+    background:url(table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive,'font-family';
+    width: auto;
+    height: 886px;
+   
+}
+.contentFirth-1 h1{
+    font-weight:bold; 
+  color: black;
+  font-size: 300%;
+  padding-top: 24%;
+  padding-left: 50%;
+  text-align: left;
+  letter-spacing: 3px;
+ 
+}
+.contentFirth-1 button{
+    margin-bottom:2%;
+    outline: none;
+    border-color: red;
+    border-radius: 20px 20px 20px 20px;
+    transition: .8s;
+    font-family: 'Comfortaa', cursive;
+    background:black;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 60%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 56%;
+    margin-top:2%;
+}
+.contentFirth-1 button:hover{
+    overflow: hidden;
+   color: red;
+   border-color: blue;
+}
+
+.contentFive-1{
+    width:auto;
+    height: 200%;
+    background: black;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.contentFive-1 a{
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px ;
+    line-height: 70px;
+    font-size: 90%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .8s;
+    border-bottom: 1px solid white;
+
+}
+
+
+
+
+.contentFive-1 a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 1%;
+    border-color: #919191 ;
+    color:#919191;
+}
+.footer{
+    background: black;
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 5%;   
+}
+.footerOneRow{
+    display: block;
+    
+    
+}
+.footerOneRow a{
+    display: block;
+    
+  
+}
+.footerTwoRow{
+    display: block;
+}
+.footerTwoRow a{
+   
+    display: block;
+}
+.footerThirdRow{
+    
+    display: block;
+}
+.footerThirdRow a{  
+    display: block;
+
+}
+.footer h1{
+    color: white;
+    font-weight: normal;
+}
+.footer a{ 
+   
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 10px -2px ;
+    font-size: 90%;
+    letter-spacing: 3px;
+    font-weight: normal;
+    transition: .8s;
+    
+}
+.footer a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+
+}
+.law{
+    color: #526173;
+    background:black;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 70%;
+    
+}
