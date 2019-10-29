@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Comfortaa', cursive,'font-family';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Comfortaa', cursive,'font-family';
+  
+}
+
+.nav{
+    border-bottom:1px solid #2196f3;
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    background: black ;
+   
+}
+.logo{
+  
+    color: #2196f3;
+    float: left;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 26px;   
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px ;
+    line-height: 70px;
+    font-size: 90%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .8s;
+    border-bottom:1px solid white;
+}
+.menu a:hover{
+    border-bottom: 1px solid blue;
+    padding-bottom: 1%;
+    border-color: blue ;
+    color:blue;
+   
+    
+}
+label{
+    margin:0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+
+}
+#toggle{
+    display:none;
+    
+    
+}
+
+.loginBox{
+    width: 320px;
+    height: 370px;
+    background:black;
+    color: white;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-125%,-50%);
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px 30px
+   
+}
+   
+
+h1{
+    margin:0;
+    padding: 0 0 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.loginBox p{
+    margin:0;
+    padding-bottom:2%;
+    font-weight: bold;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.loginBox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid blue;
+    background:transparent;
+    color: white;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+}
+.loginBox input[type="submit"]{
+    transition: .8s;
+    font-family: 'Comfortaa', cursive;
+    border:1px solid white;
+    outline: none;
+    color:white;
+    height: 40px;
+    background:none;
+    border-radius: 20px; 
+    letter-spacing: 1px;
+    font-size: 100%;
+}
+.loginBox input[type="submit"]:hover{
+    border-color: blue;
+    color:red;
+}
+.loginBox a{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    font-weight: normal;
+    transition: .8s;
+    font-size: 12px;
+}
+ .loginBox a:hover{
+     color: red;
+     border-bottom: 1px solid red;
+ }
+.loginWordsBox{
+    color: white;
+    width: 600px;
+    float: right;
+    margin-top: 7%;
+    margin-right: 9%;
+    position: static;
+}
+.loginWordsBox h1{
+    font-size: normal;
+    text-align: center; 
+}
+.loginWordsBox h2{
+    font-weight: normal;
+    text-align: center;
+}
+.loginWordsBox input[type="submit"]{
+    transition: .8s;
+    font-family: 'Comfortaa', cursive;
+    border:1px solid white;
+    outline: none;
+    color:white;
+    height: 40px;
+    background:none;
+    border-radius: 20px; 
+    letter-spacing: 1px;
+    font-size: 100%;
+    width: 43%;
+    margin-left: 27%;
+    margin-top: 7%;
+}
+.loginWordsBox input[type="submit"]:hover{
+    border-color: blue;
+    color:red;
+}
+
