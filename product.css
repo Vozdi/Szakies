@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Comfortaa', cursive,'font-family';
+    font-weight: normal;
+  
+}
+.nav{
+    border-bottom:1px solid darkgray;
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    background: black ;
+   
+}
+.logo{
+  
+    color: darkgray;
+    float: left;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 26px;   
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 25px ;
+    line-height: 70px;
+    font-size: 90%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .8s;
+    border-bottom:1px solid white;
+}
+.menu a:hover{
+    border-bottom: 1px solid blue;
+    padding-bottom: 1%;
+    border-color: blue ;
+    color:blue;
+   
+    
+}
+body{
+    background-image: url(Pure\ Lust.jpg);
+}
+.logo2{
+    font-size: 100%;
+    margin-left: 25%;
+    color: darkgray;
+}
+.product-box{
+    height: 800px;
+    width: 1000px;
+    background: rgb(0, 0, 0,0.5);
+    box-shadow: 1px 5px 5px rgb(0, 0, 0, 0.6);
+    margin: 5% 15%;
+    display:flex;
+    padding-top:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5%;
+
+    
+}
+.FirstBox{
+    color: white;
+    display: block;
+    width: 33%;
+    border:1px solid darkgray;
+    
+    
+}
+.boxhead{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    background: #3949AB;
+    text-decoration: none;
+    font-size:80%;
+    
+}
+.boxhead h1{
+    color:white;
+    font-weight: normal;
+}
+.boxprice{
+    text-align: center;
+    margin-top: 7%;
+    padding-bottom: 7%;
+    text-decoration: none;
+    font-size:80%;
+    color: darkgray;
+    display: block;
+    border-bottom: 1px solid darkgray;
+}
+.product-description{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.product-description p{
+    margin-bottom: 6%;
+    text-align: left;
+    margin-left: 17%;
+   
+}
+.visible-product{
+    color:white;
+}
+.unvisible-procuct{
+    color:black;
+}
+
+button{
+    font-family: 'Comfortaa', cursive,'font-family';
+    background-color: rgb(0, 0, 0,0.5);
+    width: 220px;
+    height: 50px;
+    border: 2px solid #3949AB;
+    border-radius: 25px;
+    color: white;
+    font-weight: normal;
+    font-size: 100%;
+    text-transform: uppercase;
+    transition:0.2s ease;
+    cursor: pointer;
+    margin-left: 11.5%;
+}
+button:hover{
+    
+    border: 2px solid #3949AB;
+    background-color: rgb(0, 0, 0,1);
+    
+}
+
+.secBox{
+    color: white;
+    display: block;
+    width: 33%;
+    border:1px solid darkgray;
+}
+.secboxhead{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    background: #e73c2e;
+    text-decoration: none;
+    font-size:80%;
+}
+.secboxhead h1{
+    font-weight: normal;
+}
+.thirdtBox{
+    color: white;
+    display: block;
+    width: 33%;
+    border:1px solid darkgray;
+}
+.Thirdboxhead{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    background: #353535;
+    text-decoration: none;
+    font-size:80%;
+}
+.Thirdboxhead h1{
+    font-weight: normal;
+}
